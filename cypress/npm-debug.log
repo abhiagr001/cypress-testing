@@ -1,0 +1,301 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/Users/abhishek/.nvm/versions/node/v22.9.0/bin/node',
+1 verbose cli   '/Users/abhishek/node_modules/.bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   '@types/node'
+1 verbose cli ]
+2 info using npm@2.15.12
+3 info using node@v22.9.0
+4 verbose install initial load of /Users/abhishek/test/cypress/package.json
+5 warn package.json cypress@1.0.0 No description
+6 warn package.json cypress@1.0.0 No repository field.
+7 warn package.json cypress@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/abhishek/test/cypress/node_modules/@playwright/test/package.json
+9 verbose readDependencies loading dependencies from /Users/abhishek/test/cypress/package.json
+10 silly cache add args [ '@types/node', null ]
+11 verbose cache add spec @types/node
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: '@types/node',
+12 silly cache add   scope: '@types',
+12 silly cache add   name: '@types/node',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag'
+12 silly cache add }
+13 silly addNamed @types/node@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for @types/node
+15 info addNameTag [ '@types/node', 'latest' ]
+16 silly mapToRegistry name @types/node
+17 silly mapToRegistry scope (from package name) @types
+18 verbose mapToRegistry no registry URL found in name for scope @types
+19 silly mapToRegistry using default registry
+20 silly mapToRegistry registry https://registry.npmjs.org/
+21 silly mapToRegistry data Result {
+21 silly mapToRegistry   raw: '@types/node',
+21 silly mapToRegistry   scope: '@types',
+21 silly mapToRegistry   name: '@types/node',
+21 silly mapToRegistry   rawSpec: '',
+21 silly mapToRegistry   spec: 'latest',
+21 silly mapToRegistry   type: 'tag'
+21 silly mapToRegistry }
+22 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+23 verbose addNameTag registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+24 verbose request uri https://registry.npmjs.org/@types%2fnode
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 9:37:21 PM
+27 verbose request using bearer token for auth
+28 verbose request id 2cfed47e1930f4af
+29 http request GET https://registry.npmjs.org/@types%2fnode
+30 http 200 https://registry.npmjs.org/@types%2fnode
+31 verbose headers {
+31 verbose headers   date: 'Sat, 06 Sep 2025 16:07:21 GMT',
+31 verbose headers   'content-type': 'application/json',
+31 verbose headers   'transfer-encoding': 'chunked',
+31 verbose headers   connection: 'keep-alive',
+31 verbose headers   'cf-ray': '97af3807dccd4483-BOM',
+31 verbose headers   'cf-cache-status': 'HIT',
+31 verbose headers   'access-control-allow-origin': '*',
+31 verbose headers   age: '151',
+31 verbose headers   'cache-control': 'public, max-age=300',
+31 verbose headers   etag: 'W/"abd7ab9dff6b6608dda48d198de5b941"',
+31 verbose headers   'last-modified': 'Thu, 04 Sep 2025 10:03:13 GMT',
+31 verbose headers   vary: 'accept-encoding, accept',
+31 verbose headers   'set-cookie': [
+31 verbose headers     '_cfuvid=0C_7jWWdDgYfTbvbxSAR0clYvSW_P.E.HrEB0Q79fDo-1757174841612-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+31 verbose headers   ],
+31 verbose headers   server: 'cloudflare',
+31 verbose headers   'content-encoding': 'gzip'
+31 verbose headers }
+32 silly get cb [
+32 silly get   200,
+32 silly get   {
+32 silly get     date: 'Sat, 06 Sep 2025 16:07:21 GMT',
+32 silly get     'content-type': 'application/json',
+32 silly get     'transfer-encoding': 'chunked',
+32 silly get     connection: 'keep-alive',
+32 silly get     'cf-ray': '97af3807dccd4483-BOM',
+32 silly get     'cf-cache-status': 'HIT',
+32 silly get     'access-control-allow-origin': '*',
+32 silly get     age: '151',
+32 silly get     'cache-control': 'public, max-age=300',
+32 silly get     etag: 'W/"abd7ab9dff6b6608dda48d198de5b941"',
+32 silly get     'last-modified': 'Thu, 04 Sep 2025 10:03:13 GMT',
+32 silly get     vary: 'accept-encoding, accept',
+32 silly get     'set-cookie': [
+32 silly get       '_cfuvid=0C_7jWWdDgYfTbvbxSAR0clYvSW_P.E.HrEB0Q79fDo-1757174841612-0.0.1.1-604800000; path=/; domain=.npmjs.org; HttpOnly; Secure; SameSite=None'
+32 silly get     ],
+32 silly get     server: 'cloudflare',
+32 silly get     'content-encoding': 'gzip'
+32 silly get   }
+32 silly get ]
+33 verbose get saving @types/node to /Users/abhishek/.npm/registry.npmjs.org/_40types_252fnode/.cache.json
+34 verbose correctMkdir /Users/abhishek/.npm correctMkdir not in flight; initializing
+35 silly addNameTag next cb for @types/node with tag latest
+36 silly addNamed @types/node@24.3.1
+37 verbose addNamed "24.3.1" is a plain semver version for @types/node
+38 silly mapToRegistry name @types/node
+39 silly mapToRegistry scope (from package name) @types
+40 verbose mapToRegistry no registry URL found in name for scope @types
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: '@types/node',
+43 silly mapToRegistry   scope: '@types',
+43 silly mapToRegistry   name: '@types/node',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag'
+43 silly mapToRegistry }
+44 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+45 verbose addRemoteTarball https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz not in flight; adding
+46 verbose addRemoteTarball [
+46 verbose addRemoteTarball   'https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz',
+46 verbose addRemoteTarball   'b0a3fb2afed0ef98e8d7f06d46ef6349047709f3'
+46 verbose addRemoteTarball ]
+47 info retry fetch attempt 1 at 9:37:22 PM
+48 info attempt registry request try #1 at 9:37:22 PM
+49 http fetch GET https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz
+50 verbose request using bearer token for auth
+51 http fetch 200 https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz
+52 silly fetchAndShaCheck shasum b0a3fb2afed0ef98e8d7f06d46ef6349047709f3
+53 verbose addTmpTarball /var/folders/rx/l4g7669114lblzh3f4s89z6m0000gn/T/npm-77870-5e0c0464/registry.npmjs.org/_40types/node/-/node-24.3.1.tgz not in flight; adding
+54 verbose addTmpTarball already have metadata; skipping unpack for @types/node@24.3.1
+55 verbose correctMkdir /Users/abhishek/.npm correctMkdir not in flight; initializing
+56 silly cache afterAdd @types/node@24.3.1
+57 verbose afterAdd /Users/abhishek/.npm/@types/node/24.3.1/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/abhishek/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/abhishek/.npm/@types/node/24.3.1/package/package.json written
+60 silly install resolved [
+60 silly install resolved   {
+60 silly install resolved     name: '@types/node',
+60 silly install resolved     version: '24.3.1',
+60 silly install resolved     license: 'MIT',
+60 silly install resolved     _id: '@types/node@24.3.1',
+60 silly install resolved     maintainers: [ [Object] ],
+60 silly install resolved     contributors: [
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object],
+60 silly install resolved       [Object], [Object], [Object]
+60 silly install resolved     ],
+60 silly install resolved     homepage: 'https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/node',
+60 silly install resolved     dist: {
+60 silly install resolved       shasum: 'b0a3fb2afed0ef98e8d7f06d46ef6349047709f3',
+60 silly install resolved       tarball: 'https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz',
+60 silly install resolved       fileCount: 85,
+60 silly install resolved       integrity: 'sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==',
+60 silly install resolved       signatures: [Array],
+60 silly install resolved       unpackedSize: 2406939
+60 silly install resolved     },
+60 silly install resolved     main: '',
+60 silly install resolved     types: 'index.d.ts',
+60 silly install resolved     scripts: {},
+60 silly install resolved     _npmUser: { name: 'types', email: 'ts-npm-types@microsoft.com' },
+60 silly install resolved     repository: {
+60 silly install resolved       url: 'https://github.com/DefinitelyTyped/DefinitelyTyped.git',
+60 silly install resolved       type: 'git',
+60 silly install resolved       directory: 'types/node'
+60 silly install resolved     },
+60 silly install resolved     description: 'TypeScript definitions for node',
+60 silly install resolved     directories: {},
+60 silly install resolved     dependencies: { 'undici-types': '~7.10.0' },
+60 silly install resolved     typesVersions: { '<=5.6': [Object], '<=5.7': [Object] },
+60 silly install resolved     _hasShrinkwrap: false,
+60 silly install resolved     peerDependencies: {},
+60 silly install resolved     typeScriptVersion: '5.2',
+60 silly install resolved     _npmOperationalInternal: {
+60 silly install resolved       tmp: 'tmp/node_24.3.1_1756980160670_0.1572719508369389',
+60 silly install resolved       host: 's3://npm-registry-packages-npm-production'
+60 silly install resolved     },
+60 silly install resolved     typesPublisherContentHash: '178c30a76a74f3afb6f7d4e412cd6957c2fb4bb51e6666143a72508c73a154c7',
+60 silly install resolved     _shasum: 'b0a3fb2afed0ef98e8d7f06d46ef6349047709f3',
+60 silly install resolved     _resolved: 'https://registry.npmjs.org/@types/node/-/node-24.3.1.tgz',
+60 silly install resolved     _from: '@types/node@latest'
+60 silly install resolved   }
+60 silly install resolved ]
+61 info install @types/node@24.3.1 into /Users/abhishek/test/cypress
+62 info installOne @types/node@24.3.1
+63 verbose installOne of @types/node to /Users/abhishek/test/cypress not in flight; installing
+64 verbose correctMkdir /Users/abhishek/.npm/_locks correctMkdir not in flight; initializing
+65 verbose lock using /Users/abhishek/.npm/_locks/types-node-5328fe3d31a71a5a.lock for /Users/abhishek/test/cypress/node_modules/@types/node
+66 silly install write writing @types/node 24.3.1 to /Users/abhishek/test/cypress/node_modules/@types/node
+67 verbose unbuild node_modules/@types/node
+68 silly gentlyRm /Users/abhishek/test/cypress/node_modules/@types/node is being purged from base /Users/abhishek/test/cypress
+69 verbose gentlyRm don't care about contents; nuking /Users/abhishek/test/cypress/node_modules/@types/node
+70 verbose tar unpack /Users/abhishek/.npm/@types/node/24.3.1/package.tgz
+71 verbose tar unpacking to /Users/abhishek/test/cypress/node_modules/@types/node
+72 silly gentlyRm /Users/abhishek/test/cypress/node_modules/@types/node is being purged
+73 verbose gentlyRm don't care about contents; nuking /Users/abhishek/test/cypress/node_modules/@types/node
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry
+76 silly gunzTarPerm extractEntry
+77 silly gunzTarPerm extractEntry
+78 silly gunzTarPerm extractEntry
+79 silly gunzTarPerm extractEntry
+80 silly gunzTarPerm extractEntry
+81 silly gunzTarPerm extractEntry
+82 silly gunzTarPerm extractEntry
+83 silly gunzTarPerm extractEntry
+84 silly gunzTarPerm extractEntry
+85 silly gunzTarPerm extractEntry
+86 silly gunzTarPerm extractEntry
+87 silly gunzTarPerm extractEntry
+88 silly gunzTarPerm extractEntry
+89 silly gunzTarPerm extractEntry
+90 silly gunzTarPerm extractEntry
+91 silly gunzTarPerm extractEntry
+92 silly gunzTarPerm extractEntry
+93 silly gunzTarPerm extractEntry
+94 silly gunzTarPerm extractEntry
+95 silly gunzTarPerm extractEntry
+96 silly gunzTarPerm extractEntry
+97 silly gunzTarPerm extractEntry
+98 silly gunzTarPerm extractEntry
+99 silly gunzTarPerm extractEntry
+100 silly gunzTarPerm extractEntry
+101 silly gunzTarPerm extractEntry
+102 silly gunzTarPerm extractEntry
+103 silly gunzTarPerm extractEntry
+104 silly gunzTarPerm extractEntry
+105 silly gunzTarPerm extractEntry
+106 silly gunzTarPerm extractEntry
+107 silly gunzTarPerm extractEntry
+108 silly gunzTarPerm extractEntry
+109 silly gunzTarPerm extractEntry
+110 silly gunzTarPerm extractEntry
+111 silly gunzTarPerm extractEntry
+112 silly gunzTarPerm extractEntry
+113 silly gunzTarPerm extractEntry
+114 silly gunzTarPerm extractEntry
+115 silly gunzTarPerm extractEntry
+116 silly gunzTarPerm extractEntry
+117 silly gunzTarPerm extractEntry
+118 silly gunzTarPerm extractEntry
+119 silly gunzTarPerm extractEntry
+120 silly gunzTarPerm extractEntry
+121 silly gunzTarPerm extractEntry
+122 silly gunzTarPerm extractEntry
+123 silly gunzTarPerm extractEntry
+124 silly gunzTarPerm extractEntry
+125 silly gunzTarPerm extractEntry
+126 silly gunzTarPerm extractEntry
+127 silly gunzTarPerm extractEntry
+128 silly gunzTarPerm extractEntry
+129 silly gunzTarPerm extractEntry
+130 silly gunzTarPerm extractEntry
+131 silly gunzTarPerm extractEntry
+132 silly gunzTarPerm extractEntry
+133 silly gunzTarPerm extractEntry
+134 silly gunzTarPerm extractEntry
+135 silly gunzTarPerm extractEntry
+136 silly gunzTarPerm extractEntry
+137 silly gunzTarPerm extractEntry
+138 silly gunzTarPerm extractEntry
+139 silly gunzTarPerm extractEntry
+140 silly gunzTarPerm extractEntry
+141 silly gunzTarPerm extractEntry
+142 silly gunzTarPerm extractEntry
+143 silly gunzTarPerm extractEntry
+144 silly gunzTarPerm extractEntry
+145 silly gunzTarPerm extractEntry
+146 silly gunzTarPerm extractEntry
+147 silly gunzTarPerm extractEntry
+148 silly gunzTarPerm extractEntry
+149 silly gunzTarPerm extractEntry
+150 silly gunzTarPerm extractEntry
+151 silly gunzTarPerm extractEntry
+152 silly gunzTarPerm extractEntry
+153 silly gunzTarPerm extractEntry
+154 silly gunzTarPerm extractEntry
+155 silly gunzTarPerm extractEntry
+156 silly gunzTarPerm extractEntry
+157 silly gunzTarPerm extractEntry
+158 silly gunzTarPerm extractEntry
+159 silly gunzTarPerm extractEntry
+160 verbose unlock done using /Users/abhishek/.npm/_locks/types-node-5328fe3d31a71a5a.lock for /Users/abhishek/test/cypress/node_modules/@types/node
+161 verbose stack Error: ENOTDIR: not a directory, open '/Users/abhishek/test/cypress/node_modules/@types/node/package.json'
+162 verbose cwd /Users/abhishek/test/cypress
+163 error Darwin 24.6.0
+164 error argv "/Users/abhishek/.nvm/versions/node/v22.9.0/bin/node" "/Users/abhishek/node_modules/.bin/npm" "install" "--save-dev" "@types/node"
+165 error node v22.9.0
+166 error npm  v2.15.12
+167 error path /Users/abhishek/test/cypress/node_modules/@types/node/package.json
+168 error code ENOTDIR
+169 error errno -20
+170 error syscall open
+171 error ENOTDIR: not a directory, open '/Users/abhishek/test/cypress/node_modules/@types/node/package.json'
+172 error If you need help, you may report this error at:
+172 error     <https://github.com/npm/npm/issues>
+173 verbose exit [ -20, true ]
+174 verbose unbuild node_modules/@types/node
+175 silly gentlyRm /Users/abhishek/test/cypress/node_modules/@types/node is being purged from base /Users/abhishek/test/cypress
+176 verbose gentlyRm don't care about contents; nuking /Users/abhishek/test/cypress/node_modules/@types/node
+177 silly vacuum-fs purging /Users/abhishek/test/cypress/node_modules/@types/node
+178 silly vacuum-fs removing /Users/abhishek/test/cypress/node_modules/@types
+179 silly vacuum-fs quitting because other entries in /Users/abhishek/test/cypress/node_modules
