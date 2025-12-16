@@ -1,0 +1,24 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhiagr001/cypress-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/abhiagr001/cypress-testing/issues"
+  },
+  "homepage": "https://github.com/abhiagr001/cypress-testing#readme",
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}
